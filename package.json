@@ -1,0 +1,23 @@
+{
+  "name": "introtobackend",
+  "version": "1.0.0",
+  "description": "a tutorial of intro to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danarddaniels/IntroToBackend.git"
+  },
+  "author": "danarddaniels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danarddaniels/IntroToBackend/issues"
+  },
+  "homepage": "https://github.com/danarddaniels/IntroToBackend#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

@@ -1,23 +1,27 @@
 {
-  "name": "introtobackend",
-  "version": "1.0.0",
-  "description": "a tutorial of intro to backend",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danarddaniels/IntroToBackend.git"
-  },
-  "author": "danarddaniels",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/danarddaniels/IntroToBackend/issues"
-  },
-  "homepage": "https://github.com/danarddaniels/IntroToBackend#readme",
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+	"name": "introtobackend",
+	"version": "1.0.0",
+	"description": "a tutorial of intro to backend",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node backend/src/index.js",
+		"dev": "nodemon backend/src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/danarddaniels/IntroToBackend.git"
+	},
+	"author": "danarddaniels",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/danarddaniels/IntroToBackend/issues"
+	},
+	"homepage": "https://github.com/danarddaniels/IntroToBackend#readme",
+	"dependencies": {
+		"dotenv": "^17.4.1",
+		"express": "^5.2.1",
+		"mongoose": "^9.4.1",
+		"nodemon": "^3.1.14"
+	}
 }
